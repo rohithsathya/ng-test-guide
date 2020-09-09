@@ -1,0 +1,9 @@
+<div>
+  <p>Update Current Temprature <span style="font-size: 80%;color:red;font-weight: 500;">(Authorized personnel only)</span></p>
+  <input style="width: 100px;" type="number" max="100" min="0" value="23" (change)="updateCurrentTempratureEvent($event)"/>
+</div>
+
+<div style="text-align: center;">
+  <h1 style="font-size: 80px;color:darkorange">{{currentTemp}} <span style="font-size: 30%;">&nbsp; &#8451;</span></h1>
+  <p>Current Temprature</p>
+</div>
